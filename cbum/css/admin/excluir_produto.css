@@ -1,0 +1,7 @@
+.card-info-botao {
+   background-color: var(--vermelho);
+}
+
+.card-info-botao:hover {
+   background-color: var(--preto);
+}

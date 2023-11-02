@@ -1,0 +1,99 @@
+#corpo_pagina {
+   position: absolute;
+   left: 50%;
+   transform: translate(-50%);
+
+   width: 90%;
+   padding-top: 25px;
+   padding-bottom: 25px;
+
+   color: var(--branco);
+
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+#tabela_produtos_carrinho {
+   width: 100%;
+   margin-bottom: 25px;
+}
+
+#tabela_produtos_carrinho_cabecalho div {
+   font-weight: 1000;
+   color: var(--preto);
+   background-color: var(--azul);
+}
+
+.tabela_produtos_carrinho_linha {
+   display: flex;
+}
+
+.tabela_produtos_carrinho_linha div {
+   overflow: auto;
+   border-radius: 5px;
+   border: 2px outset var(--vermelho);
+   background-color: var(--azul_escuro);
+
+   display: flex;
+   align-items: center;
+
+   min-height: 75px;
+   padding: 1%;
+}
+
+.produto,
+.preco-produto,
+.preco-total-produto {
+   width: 27%;
+}
+
+.quantidade-produto {
+   width: 19%;
+}
+
+
+#tabela_produtos_carrinho_total {
+   border-radius: 5px;
+   border: 2px outset var(--vermelho);
+   background-color: var(--azul_claro);
+
+   font-weight: 1000;
+   font-size: 150%;
+   color: var(--preto);
+   text-align: center;
+}
+
+#formulario_pagamento {
+   border-radius: 5px;
+   border: 2px outset var(--laranja);
+
+   max-width: 480px;
+   padding: 2.5%;
+   background-color: var(--azul_escuro);
+}
+
+#pagamento_forma {
+   display: flex;
+   justify-content: space-evenly;
+}
+
+#pagamento_dados {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+#pagamento_dados input {
+   margin-top: 5%;
+}
+
+#pagamento_dados img {
+   width: 100%;
+   height: 100%;
+   margin-top: 5%;
+}
+
+#pagamento_dados button {
+   margin-top: 5%;
+}
